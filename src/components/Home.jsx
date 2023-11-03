@@ -8,16 +8,16 @@ function Home() {
 
     function loadUsers() {
         axios.get("http://localhost:3000/users").then((res) => {
-            setUsers(res.data.reverse());
+            setUsers(res.data);
         });
     }
 
     useEffect(() => {
         loadUsers();
-    }, []);
+    }, [users]);
 
     function deleteUser(id) {
-        axios.delete(`http://localhost:3001/users/${id}`).then(loadUsers());
+        axios.delete(`http://localhost:3000/users/${id}`).then(loadUsers());
     }
 
     return (
