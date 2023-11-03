@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import User from './components/User/User.jsx';
 import AddUser from './components/User/AddUser.jsx';
+import EditUser from './components/User/EditUser.jsx';
 // import Home from './components/Home.jsx'
 
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/add-user",
     element: <AddUser />,
+  },
+  {
+    path: "/edit-user/:id",
+    element: <EditUser />,
   },
 ]);
 

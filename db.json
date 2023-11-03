@@ -47,27 +47,11 @@
       }
     },
     {
-      "id": 3,
-      "name": "David Smith",
-      "username": "davidsmith22",
+      "name": "Steve Smith ",
       "email": "david.smith@email.com",
-      "address": {
-        "street": "Cedar Lane",
-        "suite": "Apt 202",
-        "city": "Greenville",
-        "zipcode": "98765-4321",
-        "geo": {
-          "lat": "35.9876",
-          "lng": "42.5678"
-        }
-      },
       "phone": "555-333-9999",
       "website": "davidsmith.com",
-      "company": {
-        "name": "Smith Industries",
-        "catchPhrase": "Quality and Innovation",
-        "bs": "Deliver excellence"
-      }
+      "id": 3
     },
     {
       "id": 4,
@@ -185,16 +169,10 @@
       }
     },
     {
-      "name": "Leon",
-      "email": "tanita2360@eazenity.com",
-      "phone": "452523124",
-      "id": 11
-    },
-    {
       "name": "XYZ",
       "email": "tanita2360@eazenity.com",
       "phone": "02342",
-      "website": "xyz.com",
+      "website": "xyz.comm",
       "id": 12
     }
   ]
