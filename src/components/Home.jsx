@@ -1,25 +1,24 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom"
 
 function Home() {
 
     const [users, setUsers] = useState([]);
 
-    function loadUsers() {
+    const loadUsers = useCallback(() => {
         axios.get("http://localhost:3000/users").then((res) => {
             setUsers(res.data);
         });
-    }
+    }, []);
 
     useEffect(() => {
         loadUsers();
-    }, [users]);
+    }, [loadUsers]);
 
-    function deleteUser(id) {
-        axios.delete(`http://localhost:3000/users/${id}`).then(loadUsers());
-    }
-
+    const deleteUser = useCallback((id) => {
+        axios.delete(`http://localhost:3000/users/${id}`).then(() => loadUsers());
+    }, [loadUsers]);
     return (
         <>
             <div className="w-[100vw] h-full justify-center items-center flex flex-col px-10 py-8 mt-8">
@@ -83,7 +82,7 @@ function Home() {
                                                 </td>
                                                 <td className="text-sm flex justify-between  items-center text-gray-900 font-bold px-6 py-4 space-x-4 whitespace-nowrap">
                                                     <Link
-                                                        to={`/users/${data.id}`}
+                                                        to={`/user/${data.id}`}
                                                         className="bg-teal-600 text-white px-6 py-2 rounded-lg"
                                                     >
                                                         View

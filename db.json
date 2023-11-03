@@ -1,211 +1,194 @@
 {
   "users": [
     {
-      "id": 18,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "id": 1,
+      "name": "John Doe",
+      "username": "johndoe123",
+      "email": "john.doe@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Maple Street",
+        "suite": "Apt 101",
+        "city": "Maplewood",
+        "zipcode": "12345-6789",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "40.1234",
+          "lng": "35.6789"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-123-4567",
+      "website": "johndoe.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Doe Enterprises",
+        "catchPhrase": "Innovate and Succeed",
+        "bs": "Enhance productivity"
       }
     },
     {
-      "id": 17,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "id": 2,
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "email": "alice.johnson@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Oak Avenue",
+        "suite": "Suite 50",
+        "city": "Wonderland",
+        "zipcode": "54321-9876",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "37.5678",
+          "lng": "41.1234"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-987-6543",
+      "website": "aliceinwonderland.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Wonderland Enterprises",
+        "catchPhrase": "Explore the Imagination",
+        "bs": "Create magical experiences"
       }
     },
     {
-      "id": 16,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "id": 3,
+      "name": "David Smith",
+      "username": "davidsmith22",
+      "email": "david.smith@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Cedar Lane",
+        "suite": "Apt 202",
+        "city": "Greenville",
+        "zipcode": "98765-4321",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "35.9876",
+          "lng": "42.5678"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-333-9999",
+      "website": "davidsmith.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Smith Industries",
+        "catchPhrase": "Quality and Innovation",
+        "bs": "Deliver excellence"
       }
     },
     {
-      "id": 15,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "id": 4,
+      "name": "Emma Davis",
+      "username": "emmad",
+      "email": "emma.davis@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Pine Street",
+        "suite": "Apt 303",
+        "city": "Greenwood",
+        "zipcode": "87654-3210",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "38.8765",
+          "lng": "43.9876"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-111-7777",
+      "website": "emmadavis.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Davis Corporation",
+        "catchPhrase": "Invent the Future",
+        "bs": "Drive innovation"
       }
     },
     {
-      "id": 14,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "id": 5,
+      "name": "Sophia Wilson",
+      "username": "sophiaw",
+      "email": "sophia.wilson@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Willow Lane",
+        "suite": "Apt 404",
+        "city": "Willowville",
+        "zipcode": "76543-2109",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "39.7654",
+          "lng": "44.8765"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-222-8888",
+      "website": "sophiawilson.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Wilson Enterprises",
+        "catchPhrase": "Innovate for Tomorrow",
+        "bs": "Create a better future"
       }
     },
     {
-      "id": 13,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "id": 6,
+      "name": "James Anderson",
+      "username": "jamesa",
+      "email": "james.anderson@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Birch Road",
+        "suite": "Apt 505",
+        "city": "Birchville",
+        "zipcode": "65432-1098",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "33.6543",
+          "lng": "47.7654"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-444-5555",
+      "website": "jamesanderson.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Anderson Industries",
+        "catchPhrase": "Quality and Excellence",
+        "bs": "Pursue perfection"
       }
     },
     {
-      "id": 12,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "id": 7,
+      "name": "Olivia Martin",
+      "username": "oliviam",
+      "email": "olivia.martin@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Hickory Lane",
+        "suite": "Apt 606",
+        "city": "Hickorytown",
+        "zipcode": "54321-9876",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "36.5432",
+          "lng": "45.6543"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-555-9999",
+      "website": "oliviamartin.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
-      }
-    },
-    {
-      "id": 11,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
-      "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
-        "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
-        }
-      },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
-      "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Martin Corporation",
+        "catchPhrase": "Innovate and Excel",
+        "bs": "Strive for success"
       }
     },
     {
       "id": 10,
-      "name": "Tahjib Hossain",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
+      "name": "Mia Wilsonnnn",
+      "username": "miaw",
+      "email": "mia.wilson@email.com",
       "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
+        "street": "Chestnut Lane",
+        "suite": "Apt 909",
+        "city": "Chestnutville",
+        "zipcode": "98765-4321",
         "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
+          "lat": "31.9876",
+          "lng": "50.5432"
         }
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
+      "phone": "555-888-7777",
+      "website": "miawilson.com",
       "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+        "name": "Wilson Enterprises",
+        "catchPhrase": "Innovate for a Bright Future",
+        "bs": "Create opportunities for success"
       }
+    },
+    {
+      "name": "Leon",
+      "email": "tanita2360@eazenity.com",
+      "phone": "452523124",
+      "id": 11
     }
   ]
 }
