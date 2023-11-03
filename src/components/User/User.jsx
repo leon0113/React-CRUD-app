@@ -36,7 +36,7 @@ function User() {
                                 Phone
                             </h2>
                             <h2 className="text-white font-bold text-3xl border-black border-b-2">
-                                Company
+                                Website
                             </h2>
                         </div>
                         <div className="w-7/12 flex flex-col space-y-4  ">
@@ -50,7 +50,7 @@ function User() {
                                 {user.phone}
                             </h2>
                             <h2 className="text-teal-200 font-bold text-3xl border-black border-b-2">
-                                {user.company?.name}
+                                {user.website}
                             </h2>
                         </div>
                     </div>

@@ -6,17 +6,24 @@ function AddUser() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
+    const [website, setWebsite] = useState("");
 
     const navigate = useNavigate();
     const data = {
         name: name,
         email: email,
         phone: phone,
+        website: website
     };
 
     function submitForm(e) {
         e.preventDefault();
-        axios.post("http://localhost:3000/users", data).then(navigate("/"));
+        if (!name || !email || !phone || !website) {
+            alert('Fill up all info')
+        } else {
+            axios.post("http://localhost:3000/users", data).then(navigate("/"));
+        }
+
     }
     return (
         <div className="w-screen h-full flex flex-col justify-center items-center mt-16">
@@ -35,6 +42,13 @@ function AddUser() {
                     className="bg-white/10 outline-none font-normal border border-zinc-400 py-6 pl-6 mt-4"
                     type="email"
                     placeholder="Enter your email"
+                />
+                <input
+                    value={website}
+                    onChange={(e) => setWebsite(e.target.value)}
+                    className="bg-white/10 outline-none font-normal border border-zinc-400 py-6 pl-6 mt-4"
+                    type="text"
+                    placeholder="Enter your website name"
                 />
                 <input
                     value={phone}
