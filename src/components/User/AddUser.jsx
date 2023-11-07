@@ -16,14 +16,24 @@ function AddUser() {
         website: website
     };
 
+
     function submitForm(e) {
         e.preventDefault();
         if (!name || !email || !phone || !website) {
             alert('Fill up all info')
         } else {
-            axios.post("http://localhost:3000/users", data).then(navigate("/"));
+            axios.post("http://localhost:3000/users", data);
+            setName("");
+            setEmail("");
+            setPhone("");
+            setWebsite("");
+            alert('User Added');
         }
 
+    }
+
+    function backHome() {
+        navigate('/');
     }
     return (
         <div className="w-screen h-full flex flex-col justify-center items-center mt-16">
@@ -63,6 +73,12 @@ function AddUser() {
                     onClick={submitForm}
                 >
                     ADD USER
+                </button>
+                <button
+                    className="bg-yellow-600 outline-none font-bold border text-white border-zinc-400 py-4 pl-4 mt-4"
+                    onClick={backHome}
+                >
+                    Return Home
                 </button>
             </form>
         </div>

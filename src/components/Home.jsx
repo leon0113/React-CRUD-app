@@ -6,19 +6,24 @@ function Home() {
 
     const [users, setUsers] = useState([]);
 
-    const loadUsers = useCallback(() => {
-        axios.get("http://localhost:3000/users").then((res) => {
-            setUsers(res.data);
-        });
+    const loadUsers = useCallback(async () => {
+        try {
+            const response = await axios.get("http://localhost:3000/users");
+            setUsers(response.data);
+        } catch (error) {
+            console.error("Error loading users:", error);
+        }
     }, []);
 
     useEffect(() => {
         loadUsers();
+        // console.log("object");
     }, [loadUsers]);
 
     const deleteUser = useCallback((id) => {
         axios.delete(`http://localhost:3000/users/${id}`).then(() => loadUsers());
     }, [loadUsers]);
+
     return (
         <>
             <div className="w-[100vw] h-full justify-center items-center flex flex-col px-10 py-8 mt-8">
